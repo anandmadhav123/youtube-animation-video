@@ -1,0 +1,25 @@
+# Environments & Secrets
+venv/
+.env
+token.json
+client_secret*.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large media outputs and debug artifacts
+output/clips/
+output/final/
+output/debug/
+output/concat_list.txt
+output/current_scene_plan.json
+
+# Chrome automation profile
+.chrome-flow-automation/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
